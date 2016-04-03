@@ -1,0 +1,21 @@
+name: SkinStatueBuilder
+main: com.instancedev.skins.Main
+version: 1.9
+authors: [instancelabs, jflory7]
+softdepend: [WorldGuard]
+commands:
+   skin:
+      description: Builds a statue of the player
+      usage: /skin
+   skinload:
+      description: Builds a statue of a skin from a file
+      usage: /skinload
+   mobbuild:
+      description: Builds a mob statue
+      usage: /mobbuild
+   mobstatue:
+      description: Builds a mob statue
+      usage: /mobstatue
+   colortest:
+      description: Runs a colortest to determine all currently supported colors
+      usage: /colortest
