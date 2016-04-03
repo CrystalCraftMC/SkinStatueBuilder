@@ -1,8 +1,11 @@
 name: SkinStatueBuilder
-main: com.instancedev.skins.Main
 version: 1.9
+description: Create statues from player skins
 authors: [instancelabs, jflory7]
+website: https://github.com/CrystalCraftMC/SkinStatueBuilder
+main: com.instancedev.skins.Main
 softdepend: [WorldGuard]
+
 commands:
    skin:
       description: Builds a statue of the player
